@@ -1,0 +1,65 @@
+
+body{
+	
+}
+
+header{
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 18px;
+	margin: 0;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 3px solid #cccccc;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	color: #777777;
+	float: right;
+	margin: 0;
+}
+
+ul li {
+	color: #777777;
+	content: "|";
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+#aboutWrapper{
+	display: inline-block;
+	width: 650px;
+	border: 1px solid #dddddd;
+}
+
+#socialWrapper{
+	width: 270px;
+	border: 1px solid #dddddd;
+	float: right;
+	text-align: center;
+}
+
+.profilePicture{
+	width: 240px;
+	height: 330px;
+}
+
+
+
+
