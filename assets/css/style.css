@@ -1,6 +1,6 @@
 
 body{
-	
+	margin: 0;
 }
 
 header{
@@ -14,13 +14,15 @@ h1 {
 	color: #ffffff;
 	padding-left: 18px;
 	padding-top: 18px;
-	margin: 0;
+	margin: 0 0 0 150px;
+	display: inline-block;
 }
 
 h2 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	border-bottom: 3px solid #cccccc;
+	padding-bottom: 15px;
 }
 
 p {
@@ -32,7 +34,7 @@ ul {
 	list-style-type: none;
 	color: #777777;
 	float: right;
-	margin: 0;
+	margin: 30px 250px 0 0;
 }
 
 ul li {
@@ -42,10 +44,24 @@ ul li {
 	display: inline-block;
 }
 
+footer{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 20px;
+	text-align: center;
+	background-color: #555555;
+	height: 90px;
+    color: #ffffff;
+	border-top: 5px solid #4aaaa5;
+	margin-top: 20px;
+}
+
 #aboutWrapper{
 	display: inline-block;
 	width: 650px;
 	border: 1px solid #dddddd;
+	margin: 20px 0 0 150px;
+	background-color: #ffffff;
 }
 
 #socialWrapper{
@@ -53,13 +69,20 @@ ul li {
 	border: 1px solid #dddddd;
 	float: right;
 	text-align: center;
+	margin: 20px 250px 0 0;
+	background-color: #ffffff;
 }
 
 .profilePicture{
 	width: 240px;
 	height: 330px;
+	float: left;
+	margin: 0 15px 0 0;
 }
 
+#aboutTweak{
+	padding-left: 15px;
+}
 
 
 
