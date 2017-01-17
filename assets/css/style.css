@@ -56,12 +56,14 @@ footer{
 	margin-top: 20px;
 }
 
-#aboutWrapper{
+.mainContent{
 	display: inline-block;
 	width: 650px;
 	border: 1px solid #dddddd;
 	margin: 20px 0 0 150px;
 	background-color: #ffffff;
+	position: relative;
+	overflow: auto;
 }
 
 #socialWrapper{
@@ -80,9 +82,43 @@ footer{
 	margin: 0 15px 0 0;
 }
 
-#aboutTweak{
+.h2Tweak{
 	padding-left: 15px;
 }
+
+.portImage{
+	width: 250px;
+	height: 180px;
+	position: relative;
+}
+
+.portItems{
+	font-weight: bold; 
+	color: #ffffff;  
+	height: 45px; 
+	width: 120px;
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#image1{
+	position: relative;
+}
+
+#image2{
+
+}
+
+#image3{
+
+}
+
+#image4{
+
+}
+
 
 
 
