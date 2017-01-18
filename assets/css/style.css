@@ -14,7 +14,7 @@ h1 {
 	color: #ffffff;
 	padding-left: 18px;
 	padding-top: 18px;
-	margin: 0 0 0 150px;
+	margin: 0 0 0 195px;
 	display: inline-block;
 }
 
@@ -36,13 +36,14 @@ h3 {
 p {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-right: 5px;
 }
 
 ul {
 	list-style-type: none;
 	color: #777777;
 	float: right;
-	margin: 30px 250px 0 0;
+	margin: 30px 188px 0 0;
 }
 
 ul li {
@@ -73,13 +74,14 @@ form{
 
 .mainWidth{
 	width: 960px;
+	margin: 0 auto 0 auto;
 }
 
 .mainContent{
 	display: inline-block;
 	width: 650px;
 	border: 1px solid #dddddd;
-	margin: 20px 0 0 150px;
+	margin: 20px 0 0 0;
 	background-color: #ffffff;
 }
 
@@ -88,7 +90,7 @@ form{
 	border: 1px solid #dddddd;
 	float: right;
 	text-align: center;
-	margin: 20px 250px 0 0;
+	margin: 20px 0 0 0;
 	background-color: #ffffff;
 }
 
@@ -108,13 +110,14 @@ form{
 	height: 180px;
 	position: relative;
 	display: inline-block;
+	
 }
 
 .portItems{
 	font-weight: bold; 
 	color: #ffffff;  
 	height: 30px; 
-	width: 100%;
+	width: 98%;
 	text-align: center;
 	padding-top: 10px;
 	background-color: #4aaaa5;
@@ -129,31 +132,21 @@ form{
 }
 
 #image1{
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	margin: 0 12px 12px 60px;
 }
 
 #image2{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
+	margin: 0 0 12px 12px;
 }
 
 #image3{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
+	margin: 12px 12px 20px 60px;
 }
 
 #image4{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
+	margin: 12px 0 20px  12px;
 }
+
 
 
 
