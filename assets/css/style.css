@@ -18,6 +18,10 @@ h1 {
 	display: inline-block;
 }
 
+h1:hover {
+	color: #f39945;
+}
+
 h2 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -39,6 +43,10 @@ p {
 	padding-right: 5px;
 }
 
+a:hover {
+	color: #f39945;
+}
+
 ul {
 	list-style-type: none;
 	color: #777777;
@@ -48,7 +56,6 @@ ul {
 
 ul li {
 	color: #777777;
-	border-left: 1px solid black;
 	padding: 5px 10px;
 	display: inline-block;
 }
